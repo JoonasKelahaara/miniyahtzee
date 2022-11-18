@@ -3,18 +3,19 @@ import { StyleSheet, StatusBar } from 'react-native';
 export const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#fff',
+      backgroundColor: '#e3fcf7',
       marginTop: StatusBar.currentHeight || 0
     },
     header: {
-        fontSize: 30,
-        backgroundColor: 'lightblue',
-        textAlign: 'center'
+        fontSize: 50,
+        backgroundColor: '#3eb865',
+        textAlign: 'center',
+        fontWeight: 'bold'
     },
     button: {
         alignSelf: 'center',
-        backgroundColor: 'lightgreen',
-        padding: 5,
+        backgroundColor: '#529c61',
+        padding: 8,
         borderRadius: 5,
         marginTop: 10
     },
@@ -30,7 +31,15 @@ export const styles = StyleSheet.create({
     },
     footer: {
         marginTop: 10,
-        backgroundColor: 'lightblue',
-        textAlign: 'center'
-    }
+        backgroundColor: '#3eb865',
+        textAlign: 'center',
+    },
+    gameboard: {
+        backgroundColor: '#e3fcf7',
+        alignItems: 'center',
+        justifyContent: 'center'
+      },
+    flex: {
+        flexDirection: "row"
+      }
   });
